@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 2rem;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    /* background: #efefef; */
+    
+}
+
+h1,h2,h3{
+    font-size: 1.8rem;
+}
+p{
+    font-size: 1.2rem;
+}
+.container-div{
+    padding: 1rem;
+    /* border: 1px solid green; */
+    width: 30rem;
+    /* height: 30rem; */
+    background: whitesmoke;
+    box-shadow: 0px 0px 10px 0px #6e6e6e;
+    border-radius: 0.3rem;
+
+
+}
+h1.head-text{
+    /* border: 1px solid red; */
+    text-align: center;
+    background: #efefef;
+    box-shadow: 0px 0px 10px 0px #cecece;
+    border-radius: 0.5rem;
+    color: #565656;
+    transition: box-shadow 0.5s;
+}
+h1.head-text:hover{
+    box-shadow: 0px 0px 10px 0px #636363;
+
+}
+form{
+    /* border: 1px solid blue; */
+    text-align: center;
+    margin: 1rem 0;;
+}
+input[type="text"]{
+    font-family: 'Poppins', sans-serif;
+    color: #565656;
+    padding: 0.5rem;
+    width: 25rem;
+    height: 2rem;
+    outline: none;
+    border: 2px solid rgb(3, 160, 213);
+    border-radius: 0.2rem;
+
+    /* text-align: left; */
+}
+.add-button{
+    width: 2.5rem;
+    height: 2rem;
+    background: rgb(121, 222, 255);
+    border: none;
+    border: 2px solid rgb(3, 160, 213);
+    border-radius: 0.2rem;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+.container-div .ulin li{
+    /* padding:0rem 0; */
+    margin: 0.2rem 0;
+    /* margin-bottom: 1rem;  */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: inline-block;
+    font-size: 1.1rem;
+    list-style: none;
+     /* border: 1px solid pink; */
+     box-shadow: 0px 0px 10px 0px #cecece;
+     background: rgb(227, 247, 254);
+     border-radius: 3px;
+
+
+    
+}
+ul li p{
+    font-size: 0.9rem;
+    /* text-transform: uppercase; */
+    color: #6e6e6e;
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: 75.5%;
+    padding:0.3rem;
+    /* height: 2.5rem; */
+
+    margin-top: 0.1rem;
+}
+.two-btn-div{
+    /* padi */
+    margin-bottom: 0.1rem;
+    display: inline-block;
+}
+.add-btn{
+    width: 3rem;
+    height: 2rem;
+    background: rgb(121, 222, 255);
+    border: none;
+    border: 2px solid rgb(3, 160, 213);;
+}
+/* .two-btn-div{
+    border: 1px solid black;
+} */
+.done{
+    background: rgb(138, 255, 138);
+    border: 2px solid rgb(1, 99, 1);
+    border-radius: 0.2rem;
+}
+.delete{
+    background: rgb(255, 149, 149);
+    border: 2px solid rgb(169, 0, 0);
+    border-radius: 0.2rem;
+
+}
+.ttl-todo{
+    font-size: 0.8rem;
+}
